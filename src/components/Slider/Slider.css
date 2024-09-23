@@ -1,0 +1,12 @@
+.ant-layout-sider-trigger {
+  background-color: #141414 !important;
+}
+
+.ant-layout-sider-children {
+  background-color: #141414 !important;
+}
+
+.ant-menu-item-selected {
+  color: #141414 !important;
+  background-color: aliceblue !important;
+}
