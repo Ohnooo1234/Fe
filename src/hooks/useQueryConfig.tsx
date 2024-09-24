@@ -15,6 +15,7 @@ export default function useQueryConfig() {
       size: queryParams.size || '10',
       search: queryParams.search,
       sort: queryParams.sort,
+      order: queryParams.order,
       minPrice: queryParams.minPrice,
       maxPrice: queryParams.maxPrice,
       category_id: queryParams.category_id

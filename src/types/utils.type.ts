@@ -15,6 +15,7 @@ export interface SuccessResponse<Data> {
   size: number
   number: number
   id: number
+  avatar: string
 }
 export interface ErrorResponse<Data> {
   message: string

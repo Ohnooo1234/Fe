@@ -13,9 +13,10 @@ import RegisterLayout from './layouts/RegisterLayout'
 import CartLayout from './layouts/CartLayout'
 import UserLayout from './pages/User/layouts/UserLayout'
 import AdminLayout from './layouts/AdminLayout/AdminLayout'
-import Forget from './pages/Forget/Forget'
+
 import ActiveRegister from './pages/ActiveRegister'
 import ResetPageEmail from './pages/ResetPageEmail'
+import Forget from './pages/Forget'
 
 // import ChangePassword from './pages/User/pages/ChangePassword'
 // import HistoryPurchase from './pages/User/pages/HistoryPurchase'

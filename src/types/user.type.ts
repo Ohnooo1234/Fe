@@ -11,4 +11,9 @@ export interface User {
   avatarUrl?: string
   id?: number
   user_id?: number
+  name?: string
+  phone?: string
+  address?: string
+  avatar?: string
+  date_of_birth?: string
 }

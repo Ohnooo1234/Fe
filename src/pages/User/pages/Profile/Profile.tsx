@@ -133,7 +133,8 @@ export default function Profile() {
         date_of_birth: data.date_of_birth?.toISOString(),
         avatar: avatarName
       })
-      setProfile(res.data.data)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      setProfile(res.data.data as any)
       setProfileToLS(res.data.data)
       refetch()
       toast.success(res.data.message)

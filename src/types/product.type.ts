@@ -26,6 +26,9 @@ export interface Product {
   category_id: number
   price: number
   description: string
+  _id: string
+  image: string
+  price_before_discount: number
 }
 
 export interface ProductList {
@@ -44,5 +47,7 @@ export interface ParamsConfig {
   minPrice?: number | string
   maxPrice?: number | string
   sort?: 'asc' | 'desc'
+  order?: 'asc' | 'desc'
   category_id?: number | string
+  categoryId?: number | string
 }
