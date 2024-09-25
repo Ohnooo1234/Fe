@@ -1,5 +1,5 @@
 const config = {
-  baseUrl: 'http://localhost:8080/api/v1/',
+  baseUrl: 'https://be-production-2fa3.up.railway.app/',
   maxSizeUploadAvatar: 1048576 // bytes
 }
 
